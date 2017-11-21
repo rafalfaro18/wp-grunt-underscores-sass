@@ -10,6 +10,7 @@ Instructions:
 
 - cd into wp-content/themes
 - clone the repo
+- Replace in [Gruntfile.js](https://github.com/rafalfaro18/wp-grunt-underscores-sass/blob/master/Gruntfile.js#L53) wpgrunt.dev for the domain of your WordPress installation.
 - run:
 ```bash
 npm install
