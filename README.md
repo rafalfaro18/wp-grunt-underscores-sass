@@ -5,3 +5,14 @@ Requirements:
 
 - Ruby
 - Sass
+
+Instructions:
+
+- cd into wp-content/themes
+- clone the repo
+- run:
+```bash
+npm install
+grunt sass
+```
+- In WordPress dashboard select activate the theme wp grunt underscores sass
