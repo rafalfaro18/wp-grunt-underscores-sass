@@ -49,7 +49,7 @@ module.exports = function (grunt) {
         }
       },
       options: {
-        //watchTask: true,
+        watchTask: true,
         proxy   : 'wpgrunt.dev'
       }
     },
@@ -67,6 +67,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-browser-sync');
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default', ['browserSync','watch']);
 
 };
