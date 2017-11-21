@@ -15,4 +15,4 @@ Instructions:
 npm install
 grunt sass
 ```
-- In WordPress dashboard select activate the theme wp grunt underscores sass
+- In WordPress dashboard activate the theme wp grunt underscores sass
