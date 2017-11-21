@@ -49,7 +49,7 @@ module.exports = function (grunt) {
         }
       },
       options: {
-        watchTask: true,
+        //watchTask: true,
         proxy   : 'wpgrunt.dev'
       }
     },
