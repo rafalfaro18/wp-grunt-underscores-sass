@@ -38,6 +38,22 @@ module.exports = function (grunt) {
       }
     },
 
+    /*browserSync*/
+
+    browserSync: {
+      dev: {
+        bsFiles: {
+          src : [
+            'style.css'
+          ]
+        }
+      },
+      options: {
+        watchTask: true,
+        proxy   : 'wpgrunt.dev'
+      }
+    },
+
     /*Watch task*/
     watch: {
       css: {
