@@ -38,6 +38,22 @@ module.exports = function (grunt) {
       }
     },
 
+    /*browserSync*/
+
+    browserSync: {
+      dev: {
+        bsFiles: {
+          src : [
+            'style.css'
+          ]
+        }
+      },
+      options: {
+        watchTask: true,
+        proxy   : 'wpgrunt.dev'
+      }
+    },
+
     /*Watch task*/
     watch: {
       css: {
@@ -50,6 +66,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-autoprefixer');
-  grunt.registerTask('default', ['watch']);
+  grunt.loadNpmTasks('grunt-browser-sync');
+  grunt.registerTask('default', ['browserSync','watch']);
 
 };
