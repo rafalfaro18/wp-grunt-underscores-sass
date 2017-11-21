@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/rafalfaro18/wp-grunt-underscores-sass/issues"
   },
-  "homepage": "https://github.com/rafalfaro18/wp-grunt-underscores-sass#readme"
+  "homepage": "https://github.com/rafalfaro18/wp-grunt-underscores-sass#readme",
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0"
+  }
 }
