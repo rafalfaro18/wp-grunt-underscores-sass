@@ -13,6 +13,7 @@ Instructions:
 - run:
 ```bash
 npm install
-grunt sass
+grunt
 ```
+- Change any .scss file to compile style.css
 - In WordPress dashboard activate the theme wp grunt underscores sass
